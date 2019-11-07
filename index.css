@@ -1,6 +1,29 @@
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	margin: 0%
+}
+
 #background-photo {
 	background: url('images/coffee-background.jpg');
 	height: 100vh;
-	background-size: auto;
-	
+	background-size: cover;
+}
+
+#nav-bar {
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: rgba(216, 216, 216, 0.2)
+}
+
+#home-btn {
+	display: block;
+	margin: auto;
+	position: relative;
+	bottom: 1px;
 }
